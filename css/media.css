@@ -2,9 +2,7 @@
     /* Large Devices, Wide Screens */
     
     @media only screen and (max-width: 1200px) {
-        .block-lang {
-            margin-right: 50px;
-        }
+
 
 }
     /* Medium Devices, Desktops */
@@ -16,9 +14,6 @@
         }
         .portf-item .portf-item-wrap{
             margin-bottom: 30px;
-        }
-        .block-lang {
-            margin-right: 50px;
         }
 }
     /* Small Devices, Tablets */
@@ -42,25 +37,16 @@
         .resume-icon{
             margin-bottom: 20px;
         }
-        .block-lang {
-            margin-right: 100px;
-        }
         
         
 }
     /* Extra Small Devices, Phones */
     
     @media only screen and (max-width: 480px) {
-        .block-lang {
-            margin-right: 100px;
-        }
 }
     /* Custom, iPhone Retina */
     
     @media only screen and (max-width: 320px) {
-            .block-lang {
-            margin-right: 100px;
-        }
 }
     /*==========  Mobile First Method  ==========*/
     /* Custom, iPhone Retina */
