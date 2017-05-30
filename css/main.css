@@ -1,17 +1,17 @@
 a {
-  color: #FF6347; }
+  color: #7ba5de; }
 
 p {
   color: #888; }
 
 .color_element {
-  color: #FF6347; }
+  color: #7ba5de; }
 
 .color_bg {
-  background-color: #FF6347; }
+  background-color: #7ba5de; }
 
 .color_border {
-  border-color: #FF6347; }
+  border-color: #7ba5de; }
 
 .main-color-bg {
   background-color: #000; }
@@ -121,10 +121,11 @@ section {
     height: 102px; }
 
 .block-lang {
-  float: right;
   display: block;
-  margin-top: 25px;
-  position: relative; }
+  position: fixed;
+  top: 40px;
+  right: 100px;
+  z-index: 100; }
   .block-lang .lang-switcher {
     display: block;
     position: relative;
@@ -289,7 +290,7 @@ section {
       font-size: 14px; }
 
 .top-menu a:hover {
-  color: #FF6347;
+  color: #7ba5de;
   background-color: rgba(255, 255, 255, 0.1);
   letter-spacing: 3px;
   text-decoration: none;
@@ -341,7 +342,7 @@ section {
 .section-about p {
   margin-bottom: 25px; }
   .section-about p:nth-child(odd) {
-    color: #FF6347; }
+    color: #7ba5de; }
 
 .section-about .person-name {
   margin-bottom: 30px;
@@ -378,7 +379,7 @@ section {
 .social-wrap a {
   font-size: 20px;
   padding: 0 5px;
-  color: #FF6347; }
+  color: #7ba5de; }
 
 .resume-left {
   text-align: right;
@@ -404,13 +405,13 @@ section {
 .resume-item p {
   margin-bottom: 20px; }
   .resume-item p strong {
-    color: #FF6347; }
+    color: #7ba5de; }
 
 .resume-year {
   display: inline-block;
   margin-bottom: 20px;
   padding: 2px 10px;
-  background-color: #FF6347;
+  background-color: #7ba5de;
   -webkit-border-radius: 5px;
           border-radius: 5px;
   font-weight: 400;
@@ -503,7 +504,7 @@ section {
       .controls .paginator li a {
         display: block;
         padding: 5px 10px;
-        border: 3px solid #FF6347;
+        border: 3px solid #7ba5de;
         text-decoration: none; }
         .controls .paginator li a:hover {
           background-color: #fff;
@@ -511,12 +512,12 @@ section {
           text-decoration: none; }
 
 .owl-prev {
-  border: 3px solid #FF6347;
+  border: 3px solid #7ba5de;
   padding: 5px 10px;
   cursor: pointer; }
 
 .owl-next {
-  border: 3px solid #FF6347;
+  border: 3px solid #7ba5de;
   padding: 5px 10px;
   cursor: pointer; }
 
@@ -529,7 +530,7 @@ section {
     padding: 10px 20px;
     text-align: left; }
     .portf-xs li a:hover {
-      color: #FF6347; }
+      color: #7ba5de; }
 
 .feedback-wrap {
   margin: 0 auto;
@@ -545,7 +546,7 @@ section {
       font-size: 17px;
       letter-spacing: 2px; }
       .feedback-wrap .feedback-form .input-field-feedback label span {
-        color: #FF6347; }
+        color: #7ba5de; }
     .feedback-wrap .feedback-form .input-field-feedback input,
     .feedback-wrap .feedback-form .input-field-feedback textarea {
       width: 100%;
@@ -560,7 +561,7 @@ section {
       background-color: #fff; }
       .feedback-wrap .feedback-form .input-field-feedback input:focus,
       .feedback-wrap .feedback-form .input-field-feedback textarea:focus {
-        border: 1px solid #FF6347;
+        border: 1px solid #7ba5de;
         color: #000; }
   .feedback-wrap .feedback-form button {
     width: 100%;
@@ -570,7 +571,7 @@ section {
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 2px;
-    background-color: #FF6347;
+    background-color: #7ba5de;
     border: none;
     -webkit-border-radius: 3px;
             border-radius: 3px; }
