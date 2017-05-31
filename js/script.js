@@ -79,9 +79,6 @@ $(document).ready(function () {
 
 });
 $(window).load(function () {
-    $(".loaderInner").fadeOut();
-    $(".loader").delay(400).fadeOut("slow");
-
     $(".head-name h1").animated("fadeInDown");
     $(".head-name p, .section-header").animated("fadeInUp");
 
