@@ -20,11 +20,6 @@ $(document).ready(function () {
         owl.trigger('prev.owl.carousel');
     });
 
-    $(".paginator li").click(function () {
-        $(".paginator li").removeClass("active");
-        $(this).addClass("active");
-    });
-
     $(".popup").magnificPopup({
         type: 'image'
     });
@@ -79,6 +74,9 @@ $(document).ready(function () {
 
 });
 $(window).load(function () {
+    $(".loaderInner").fadeOut();
+    $(".loader").delay(400).fadeOut("slow");
+
     $(".head-name h1").animated("fadeInDown");
     $(".head-name p, .section-header").animated("fadeInUp");
 
